@@ -7,11 +7,11 @@
   <groupId>us.abstracta.jmeter</groupId>
   <artifactId>jmeter-java-dsl-parent</artifactId>
   <packaging>pom</packaging>
-  <version>2.2</version>
+  <version>2.4-SNAPSHOT</version>
 
   <name>${project.artifactId}</name>
   <description>Parent project for all jmeter-java-dsl modules</description>
-  <url>https://github.com/abstracta/jmeter-dsl</url>
+  <url>https://github.com/abstracta/jmeter-java-dsl</url>
 
   <licenses>
     <license>
@@ -28,17 +28,16 @@
       <organizationUrl>https://abstracta.us/</organizationUrl>
     </developer>
   </developers>
-
   <scm>
-    <connection>scm:git:git://github.com/abstracta/jmeter-dsl.git</connection>
-    <developerConnection>scm:git:ssh://github.com:abstracta/jmeter-dsl.git</developerConnection>
-    <url>https://github.com/abstracta/jmeter-dsl/tree/master</url>
+    <connection>scm:git:git://github.com/abstracta/jmeter-java-dsl.git</connection>
+    <developerConnection>scm:git:ssh://github.com:abstracta/jmeter-java-dsl.git</developerConnection>
+    <url>https://github.com/abstracta/jmeter-java-dsl/tree/master</url>
   </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <project.build.outputTimestamp>1765398531</project.build.outputTimestamp>
+    <project.build.outputTimestamp>1791391209</project.build.outputTimestamp>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <jmeter.version>5.6.3</jmeter.version>
